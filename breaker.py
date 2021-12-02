@@ -4,7 +4,7 @@ import time
 import numpy as np
 
 def getSHA256(string: str):
-    return hashlib.md5(str(string).encode('utf-8')).hexdigest()
+    return hashlib.sha256(str(string).encode('utf-8')).hexdigest()
      
 def breakHash(actualHash):
     chars = 'abcdefghijklmnopqrstuvwxyz' + 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' + '1234567890' + '`-=~_+!@#$%^&*()[]\{\}\\|;\':",.<>/?'
