@@ -1,4 +1,4 @@
-# Wordle Clone
+# Password Breaker
 
 Created using Python, this script will guess passwords either in plaintext or hashed if you know the algorithm.
 
